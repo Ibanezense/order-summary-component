@@ -27,9 +27,9 @@ body {
   justify-content: center;
   background-color: $pale-blue; 
   background-image: url(../images/pattern-background-mobile.svg);
-  //background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: contain;
-  //background-position: center;
+  
 }
 
 .card {
@@ -154,7 +154,7 @@ body {
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width:700px) {
   body {
     background-image: url(../images/pattern-background-desktop.svg);
     background-size: contain;
